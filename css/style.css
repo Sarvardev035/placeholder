@@ -1,0 +1,56 @@
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Card Styles */
+.user {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+.user h3 {
+    margin: 0 0 10px;
+    color: #007BFF;
+}
+
+
+.user p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.user:hover{
+    cursor: pointer;
+    background-color: rgba(48, 78, 68, 0.295) ;
+    transition: 0.7s;
+    transform: scale(1.05);
+ }
+ 
+ 
+ 
